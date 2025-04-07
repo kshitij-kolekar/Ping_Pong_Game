@@ -3,32 +3,50 @@ D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(14,12): warning C4244: 'argument': conv
 D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(30,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(34,51): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
 D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(34,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:         with
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:         [
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:             T=unsigned int
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:         ]
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:         and
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:         [
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:             T=float
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(59,70): warning C4244:         ]
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:         with
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:         [
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:             T=unsigned int
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:         ]
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:         and
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:         [
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:             T=float
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(66,68): warning C4244:         ]
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,32): warning C4244:         with
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,32): warning C4244:         [
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,32): warning C4244:             T=float
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,32): warning C4244:         ]
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,29): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,29): warning C4244:         with
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,29): warning C4244:         [
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,29): warning C4244:             T=float
-D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(127,29): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:         with
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:             T=unsigned int
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:         and
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:             T=float
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,82): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:         with
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:             T=unsigned int
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:         and
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:             T=float
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(61,57): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:         with
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:             T=unsigned int
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:         and
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:             T=float
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(67,70): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:         with
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:             T=unsigned int
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:         and
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:             T=float
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(74,68): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,32): warning C4244:         with
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,32): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,32): warning C4244:             T=float
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,32): warning C4244:         ]
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,29): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,29): warning C4244:         with
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,29): warning C4244:         [
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,29): warning C4244:             T=float
+D:\C++\Ping_Pong_Game\Ping_Pong_Game.cpp(135,29): warning C4244:         ]
   Ping_Pong_Game.vcxproj -> D:\C++\Ping_Pong_Game\x64\Debug\Ping_Pong_Game.exe

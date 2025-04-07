@@ -34,12 +34,12 @@ int main()
     sf::RenderWindow window(sf::VideoMode(1000.f, 750.f), "Ping Pong Game");
     window.setFramerateLimit(60);
 
-	sf::RectangleShape playerOne(sf::Vector2f(20.f, 75.f));
+	sf::RectangleShape playerOne(sf::Vector2f(20.f, 100.f));
 	playerOne.setPosition(sf::Vector2f(50.f, window.getSize().y / 2 - playerOne.getSize().y / 2));
 	playerOne.setFillColor(sf::Color(0, 0, 0));
 	int playerOneScore = 0;
 
-	sf::RectangleShape playerTwo(sf::Vector2f(20.f, 75.f));
+	sf::RectangleShape playerTwo(sf::Vector2f(20.f, 100.f));
 	playerTwo.setPosition(sf::Vector2f(window.getSize().x-50.f, window.getSize().y / 2 - playerTwo.getSize().y / 2));
 	playerTwo.setFillColor(sf::Color(0, 0, 0));
 	int playerTwoScore = 0;
@@ -51,6 +51,14 @@ int main()
 	sf::Font font;
 	if (!font.loadFromFile("Fonts/Roboto-VariableFont_wdth,wght.ttf"))
 		throw("Failed to load the Font");
+
+	sf::Text pressEnter;
+	pressEnter.setFont(font);
+	pressEnter.setCharacterSize(50);
+	pressEnter.setFillColor(sf::Color(0, 0, 0));
+	pressEnter.setString("Press Enter to Continue");
+	pressEnter.setOrigin(sf::Vector2f(pressEnter.getLocalBounds().left + pressEnter.getLocalBounds().width / 2.f, pressEnter.getLocalBounds().top + pressEnter.getLocalBounds().height / 2.f));
+	pressEnter.setPosition(sf::Vector2f(window.getSize().x / 2 , window.getSize().y / 2));
 
 	sf::Text playerOneScoreDisplay;
 	playerOneScoreDisplay.setFont(font);
@@ -167,6 +175,7 @@ int main()
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter) && !gameOn && gameOver)
 		{
 			gameOver = false;
+			gameOn = false;
 			playerOneScore = 0;
 			playerTwoScore = 0;
 		}
@@ -174,9 +183,12 @@ int main()
 		window.clear(sf::Color(202,202,202));
 		window.draw(playerOne);
 		window.draw(playerTwo);
-		window.draw(square);
+		if (gameOn)
+			window.draw(square);
 		window.draw(playerOneScoreDisplay);
 		window.draw(playerTwoScoreDisplay);
+		if (!gameOn)
+			window.draw(pressEnter);
 		if (gameOver)
 		{
 			window.draw(gameOverText);
