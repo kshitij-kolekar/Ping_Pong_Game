@@ -41,45 +41,52 @@ The project aims to reinforce concepts like event handling, game loops, and real
 
 ## 📦 Directory Structure
 
-Ping\_Pong\_Game/
+Ping_Pong_Game/
 ├── .gitignore
 ├── Fonts/
-│   └── Roboto-VariableFont\_wdth,wght.ttf
+│ └── Roboto-VariableFont_wdth,wght.ttf
 ├── openal32.dll
-├── Ping\_Pong\_Game/
-│   └── x64/
-│       └── Debug/
-│           ├── Ping\_Pong\_Game.exe.recipe
-│           ├── Ping\_Pong\_Game.ilk
-│           ├── Ping\_Pong\_Game.log
-│           ├── Ping\_Pong\_Game.obj
-│           ├── ping\_pong\_game.obj.enc
-│           ├── Ping\_Pong\_Game.tlog/
-│           │   ├── CL.command.1.tlog
-│           │   ├── Cl.items.tlog
-│           │   ├── CL.read.1.tlog
-│           │   ├── CL.write.1.tlog
-│           │   ├── link.command.1.tlog
-│           │   ├── link.read.1.tlog
-│           │   ├── link.secondary.1.tlog
-│           │   ├── link.write.1.tlog
-│           │   └── Ping\_Pong\_Game.lastbuildstate
-│           ├── vc143.idb
-│           └── vc143.pdb
-├── Ping\_Pong\_Game.cpp
-├── Ping\_Pong\_Game.sln
-├── Ping\_Pong\_Game.vcxproj
-├── Ping\_Pong\_Game.vcxproj.filters
-├── Ping\_Pong\_Game.vcxproj.user
+├── Ping_Pong_Game/
+│ └── x64/
+│ └── Debug/
+│ ├── Ping_Pong_Game.exe.recipe
+│ ├── Ping_Pong_Game.ilk
+│ ├── Ping_Pong_Game.log
+│ ├── Ping_Pong_Game.obj
+│ ├── ping_pong_game.obj.enc
+│ ├── Ping_Pong_Game.tlog/
+│ │ ├── CL.command.1.tlog
+│ │ ├── Cl.items.tlog
+│ │ ├── CL.read.1.tlog
+│ │ ├── CL.write.1.tlog
+│ │ ├── link.command.1.tlog
+│ │ ├── link.read.1.tlog
+│ │ ├── link.secondary.1.tlog
+│ │ ├── link.write.1.tlog
+│ │ └── Ping_Pong_Game.lastbuildstate
+│ ├── vc143.idb
+│ └── vc143.pdb
+├── Ping_Pong_Game.cpp
+├── Ping_Pong_Game.sln
+├── Ping_Pong_Game.vcxproj
+├── Ping_Pong_Game.vcxproj.filters
+├── Ping_Pong_Game.vcxproj.user
 ├── SFML/
-│   ├── include/
-│   ├── lib/
-│   ├── Debug/
-│   ├── sfml-\*.dll
-│   └── x64/
-│       └── Debug/
-│           ├── Ping\_Pong\_Game.exe
-│           └── Ping\_Pong\_Game.pdb
+│ ├── include/
+│ ├── lib/
+│ ├── Debug/
+│ ├── sfml-audio-2.dll
+│ ├── sfml-graphics-2.dll
+│ ├── sfml-network-2.dll
+│ ├── sfml-system-2.dll
+│ ├── sfml-window-2.dll
+│ └── x64/
+│ └── Debug/
+│ ├── Ping_Pong_Game.exe
+│ └── Ping_Pong_Game.pdb
+
+Copy
+Edit
 
 
 
